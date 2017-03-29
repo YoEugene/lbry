@@ -16,6 +16,10 @@ from lbrynet.core import log_support
 
 log = logging.getLogger('decrypt_blob')
 
+def extraCool():
+    lost = 3
+    return lost
+
 
 def main():
     conf.initialize_settings()
